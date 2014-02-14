@@ -10,6 +10,7 @@ namespace Sammsar.Web.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.ip = Request.ServerVariables["REMOTE_ADDR"];
             return View();
         }
 
