@@ -28,11 +28,11 @@ namespace Sammsar.Web
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1458259137724825",
+               appSecret: "99fd5bfee0ad81ce747a1d28dd00bf27");
 
-            //app.UseGoogleAuthentication();
+            app.UseGoogleAuthentication();
         }
     }
 }

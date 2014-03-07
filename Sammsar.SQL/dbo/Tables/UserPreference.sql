@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[UserPreference]
+(
+	[ID] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [ShowEmail] BIT NOT NULL DEFAULT 0, 
+    [ShowPhone] BIT NOT NULL DEFAULT 0, 
+    [AllowMessage] BIT NOT NULL DEFAULT 0,
+	CONSTRAINT [FK_UserPreference_UserID] FOREIGN KEY (ID) REFERENCES [AspNetUsers]([Id])
+)

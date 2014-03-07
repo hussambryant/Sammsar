@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sammsar.Web", "Sammsar.Web\Sammsar.Web.csproj", "{5EF95958-1D25-4D67-87EC-BCA8771694B8}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Sammsar.SQL", "Sammsar.SQL\Sammsar.SQL.sqlproj", "{4BCA6797-FC84-4FDF-93B2-192CBF4369B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{5EF95958-1D25-4D67-87EC-BCA8771694B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF95958-1D25-4D67-87EC-BCA8771694B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF95958-1D25-4D67-87EC-BCA8771694B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCA6797-FC84-4FDF-93B2-192CBF4369B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCA6797-FC84-4FDF-93B2-192CBF4369B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCA6797-FC84-4FDF-93B2-192CBF4369B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4BCA6797-FC84-4FDF-93B2-192CBF4369B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCA6797-FC84-4FDF-93B2-192CBF4369B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCA6797-FC84-4FDF-93B2-192CBF4369B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

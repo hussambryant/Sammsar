@@ -59,5 +59,11 @@ namespace Sammsar.Web.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        [Display(Name = "Email")]
+        [DataType(DataType.EmailAddress)]
+        [StringLength(50, ErrorMessage = "Email must be less than 50 characters long.")]
+        public string Email { get; set; }
     }
 }
